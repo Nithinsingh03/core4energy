@@ -8,7 +8,7 @@ const About = () => {
         <div className="relative w-full lg:w-1/2">
           {/* Image 1 */}
           <img
-            src="/public/Ab1.png"
+            src="/Ab1.png"
             alt="Building"
             className="w-full rounded-md"
           />
