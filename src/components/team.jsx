@@ -22,7 +22,7 @@ const teamMembers = [
 export default function TeamSection() {
   return (
     <section id='team' className="py-16 bg-white">
-      <h2 className="text-3xl md:text-4xl font-bold text-center text-blue-900 mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-center text-[#102E50] mb-12">
         MEET THE EXPERT TEAM
       </h2>
 

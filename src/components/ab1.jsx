@@ -49,7 +49,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-6 mb-10">
             <div className="flex items-start gap-4">
               <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-black text-xl" />
+                <FaCheckCircle className="text-[#102E50] text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Most Reliable</h4>
@@ -61,7 +61,7 @@ const About = () => {
 
             <div className="flex items-start gap-4">
               <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-black text-xl" />
+                <FaCheckCircle className="text-[#102E50] text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Cost Effective</h4>
