@@ -8,17 +8,17 @@ const About = () => {
         <div className="relative w-full lg:w-1/2">
           {/* Image 1 */}
           <img
-            src="/1.jpg"
+            src="/public/Ab1.png"
             alt="Building"
             className="w-full rounded-md"
           />
 
           {/* Overlapping second image */}
-          <img
-            src="/2.jpg"
+          {/* <img
+            src="/Ab2.png.jpg"
             alt="Modern Building"
             className="absolute top-10 right-[-30px] w-2/3 shadow-lg rounded-md hidden md:block"
-          />
+          /> */}
 
           {/* Experience Badge */}
           <div className="absolute bottom-[-20px] left-0 bg-[#FFB400] text-[#0A2C52] p-6 font-semibold text-center shadow-lg">
