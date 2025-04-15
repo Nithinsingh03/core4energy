@@ -21,7 +21,7 @@ const About = () => {
           /> */}
 
           {/* Experience Badge */}
-          <div className="absolute bottom-[-20px] left-0 bg-[#FFB400] text-[#0A2C52] p-6 font-semibold text-center shadow-lg">
+          <div className="absolute bottom-[-20px] left-0 bg-[#FFB400] text-black p-6 font-semibold text-center shadow-lg">
             <h2 className="text-4xl font-bold leading-none">35</h2>
             <p className="text-sm mt-1">Years of Experience</p>
           </div>
@@ -49,7 +49,7 @@ const About = () => {
           <div className="flex flex-col sm:flex-row gap-6 mb-10">
             <div className="flex items-start gap-4">
               <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-white text-xl" />
+                <FaCheckCircle className="text-black text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Most Reliable</h4>
@@ -61,7 +61,7 @@ const About = () => {
 
             <div className="flex items-start gap-4">
               <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-white text-xl" />
+                <FaCheckCircle className="text-black text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Cost Effective</h4>

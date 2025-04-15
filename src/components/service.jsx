@@ -52,7 +52,7 @@ const services = [
 const Services = () => {
   return (
     <section id='services' className="bg-white py-16 px-4 text-center">
-      <h2 className="text-3xl md:text-4xl font-extrabold text-[#1a237e] mb-2">
+      <h2 className="text-3xl md:text-4xl font-extrabold text-[#102E50] mb-2">
         Services We are Offering
       </h2>
       <div className="w-20 h-1 bg-yellow-500  mx-auto mb-4 rounded-full" />
