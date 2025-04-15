@@ -25,7 +25,7 @@ const Navbar = () => {
         {/* Logo on the left */}
         <a href="#home" className="flex items-center transition-all duration-700 ease-in-out ml-[-40px]">
           <img
-            src="/public/logo.png"
+            src="/logo.png"
             alt="Autora Logo"
             className={`transition-all duration-700 ease-in-out ${scrolled ? 'h-15' : 'h-20'}`}
           />

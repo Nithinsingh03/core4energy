@@ -10,42 +10,42 @@ const services = [
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: WrenchScrewdriverIcon,
-    bgImage: '/public/h1.jpg',
+    bgImage: '/h1.jpg',
   },
   {
     title: 'Infrastructure Service',
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: BuildingOfficeIcon,
-    bgImage: '/public/h2.jpg',
+    bgImage: '/h2.jpg',
   },
   {
     title: 'Architecture Service',
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: PencilSquareIcon,
-    bgImage: '/public/h3.jpg',
+    bgImage: '/h3.jpg',
   },
   {
     title: 'Construction Service',
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: WrenchScrewdriverIcon,
-    bgImage: '/public/h1.jpg',
+    bgImage: '/h1.jpg',
   },
   {
     title: 'Infrastructure Service',
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: BuildingOfficeIcon,
-    bgImage: '/public/h2.jpg',
+    bgImage: '/h2.jpg',
   },
   {
     title: 'Architecture Service',
     description:
       'Lorem ipsum dolor sit amet, co adipisicing elit, sed do eiusmod tempor incididunt uty labore et dolore magna aliqua. Ut enimd minim veniam, quis nostrud',
     icon: PencilSquareIcon,
-    bgImage: '/public/h3.jpg',
+    bgImage: '/h3.jpg',
   },
 ];
 

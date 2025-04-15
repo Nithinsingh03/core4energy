@@ -7,15 +7,15 @@ import 'aos/dist/aos.css';
 const slides = [
   {
     id: 1,
-    image: '/public/u1.png',
+    image: "/u1.png",
   },
   {
     id: 2,
-    image: '/public/u2.png',
+    image: '/u2.png',
   },
   {
     id: 3,
-    image: '/public/u3.jpeg',
+    image: '/u3.jpeg',
   },
 ];
 

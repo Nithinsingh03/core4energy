@@ -4,25 +4,25 @@ export default function FeaturedProjects() {
       image: "/h1.jpg",
       title: "LAKE MEADOWS APARTMENTS",
       content: "A serene apartment complex offering modern amenities in a peaceful lakeside setting.",
-      icon: "/public/icon1.png",
+      icon: "/icon1.png",
     },
     {
       image: "/h2.jpg",
       title: "WHITE VILLA RESIDENCE",
       content: "Minimalist white villa designed with a blend of contemporary and traditional elegance.",
-      icon: "/public/icon2.png",
+      icon: "/icon2.png",
     },
     {
       image: "/h3.jpg",
       title: "MODERN FAMILY HOUSE",
       content: "Spacious and functional family house tailored for comfort and modern living.",
-      icon: "/public/icon3.png",
+      icon: "/icon3.png",
     },
     {
       image: "/h1.jpg",
       title: "LUXURY POOL VILLA",
       content: "Elegant villa featuring a private pool, luxurious interiors, and scenic views.",
-      icon: "/public/icon4.png",
+      icon: "/icon4.png",
     },
   ];
 

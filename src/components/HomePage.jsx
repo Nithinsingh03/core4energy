@@ -4,9 +4,9 @@ import Navbar from './nav';
 import HeroSection from './home';
 
 const slides = [
-  { id: 1, image: '/public/u1.png' },
-  { id: 2, image: '/public/u2.png' },
-  { id: 3, image: '/public/u3.jpeg' },
+  { id: 1, image: '/u1.png' },
+  { id: 2, image: '/u2.png' },
+  { id: 3, image: '/u3.jpeg' },
 ];
 
 const HomePage = () => {
