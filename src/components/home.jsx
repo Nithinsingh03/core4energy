@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Typewriter } from 'react-simple-typewriter';
 
 const slides = [
   {
@@ -35,7 +36,7 @@ const HeroSection = () => {
 
   useEffect(() => {
     AOS.init({ duration: 800, once: true });
-    const timer = setInterval(() => nextSlide(), 4000);
+    const timer = setInterval(() => nextSlide(), 6300);
     return () => clearInterval(timer);
   }, []);
 
@@ -80,15 +81,46 @@ const HeroSection = () => {
               >
                 A Global Leader In Infrastructure
               </h4>
-              <h1
-                className="text-3xl md:text-5xl font-bold leading-tight mb-6"
-                data-aos="fade-up"
-                data-aos-delay="200"
-              >
-                We Will Be Happy <br /> To Take Care Of Your Work
-              </h1>
+
+              {slides[currentSlide].id === 1 ? (
+  <h1
+    className="text-3xl md:text-5xl font-bold leading-tight mb-6"
+    data-aos="fade-up"
+    data-aos-delay="200"
+  >
+    <div>
+      <Typewriter
+        words={['We Will Be Happy']}
+        cursor
+        cursorStyle="|"
+        typeSpeed={70}
+        delaySpeed={1000}
+        loop={false}
+      />
+    </div>
+    <div>
+      <Typewriter
+        words={['To Take Care Of Your Work']}
+        cursor
+        cursorStyle="|"
+        typeSpeed={70}
+        delaySpeed={3000} // Add delay to start this after the first line
+        loop={false}
+      />
+    </div>
+  </h1>
+) : (
+  <h1
+    className="text-3xl md:text-5xl font-bold leading-tight mb-6"
+    data-aos="fade-up"
+    data-aos-delay="200"
+  >
+    We Will Be Happy <br /> To Take Care Of Your Work
+  </h1>
+)}
+
               <button
-                className="bg-yellow-500 hover:bg-yellow-600 transition-all px-6 py-3 text-sm md:text-base font-bold text-[#0A2C52] w-fit "
+                className="bg-yellow-500 hover:bg-yellow-600 transition-all rounded px-6 py-3 text-sm md:text-base font-bold text-black w-fit "
                 data-aos="zoom-in"
                 data-aos-delay="400"
               >

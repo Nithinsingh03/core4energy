@@ -72,7 +72,7 @@ const AboutSection = () => {
 
       {/* About Us Button */}
       <button
-        className="bg-yellow-500 text-black font-bold py-3 px-8 text-sm uppercase hover:bg-yellow-600 transition"
+        className="bg-yellow-500 text-black font-bold py-3 rounded px-8 text-sm uppercase hover:bg-yellow-600 transition"
         data-aos="fade-up"
         data-aos-delay="200"
       >

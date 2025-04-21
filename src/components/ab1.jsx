@@ -48,8 +48,8 @@ const About = () => {
           {/* Features */}
           <div className="flex flex-col sm:flex-row gap-6 mb-10">
             <div className="flex items-start gap-4">
-              <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-[#102E50] text-xl" />
+              <div className="bg-[#0A2C52] p-3 rounded">
+                <FaCheckCircle className="text-white text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Most Reliable</h4>
@@ -60,8 +60,8 @@ const About = () => {
             </div>
 
             <div className="flex items-start gap-4">
-              <div className="bg-[#FFB400] p-3 rounded">
-                <FaCheckCircle className="text-[#102E50] text-xl" />
+              <div className="bg-[#0A2C52] p-3 rounded">
+                <FaCheckCircle className="text-white text-xl" />
               </div>
               <div>
                 <h4 className="font-bold text-lg">Cost Effective</h4>
@@ -73,7 +73,7 @@ const About = () => {
           </div>
 
           {/* Button */}
-          <button className="bg-[#FFB400] text-[#0A2C52] font-semibold px-6 py-3 rounded hover:bg-yellow-400 transition duration-300">
+          <button className="bg-[#FFB400] text-black font-semibold px-6 py-3 rounded hover:bg-yellow-400 transition duration-300">
             Learn More
           </button>
         </div>
